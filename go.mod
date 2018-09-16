@@ -1,6 +1,7 @@
 module github.com/ncw/rclone
 
 require (
+	9fans.net/go v0.0.0-20180727211846-5d4fa602e1e8 // indirect
 	bazil.org/fuse v0.0.0-20180421153158-65cc252bf669
 	cloud.google.com/go v0.23.0 // indirect
 	github.com/Azure/azure-pipeline-go v0.0.0-20180607212504-7571e8eb0876 // indirect
@@ -9,11 +10,14 @@ require (
 	github.com/Unknwon/goconfig v0.0.0-20180308125533-ef1e4c783f8f
 	github.com/a8m/tree v0.0.0-20180321023834-3cf936ce15d6
 	github.com/abbot/go-http-auth v0.4.0
+	github.com/acroca/go-symbols v0.0.0-20180523203557-953befd75e22 // indirect
 	github.com/aws/aws-sdk-go v1.14.8
 	github.com/billziss-gh/cgofuse v1.1.0
 	github.com/coreos/bbolt v0.0.0-20180318001526-af9db2027c98
+	github.com/cosiner/argv v0.0.0-20170225145430-13bacc38a0a5 // indirect
 	github.com/cpuguy83/go-md2man v1.0.8 // indirect
 	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/derekparker/delve v1.1.0 // indirect
 	github.com/djherbis/times v1.0.1
 	github.com/dropbox/dropbox-sdk-go-unofficial v4.1.0+incompatible
 	github.com/go-ini/ini v1.37.0 // indirect
@@ -26,30 +30,39 @@ require (
 	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8 // indirect
 	github.com/jtolds/gls v4.2.1+incompatible // indirect
 	github.com/kardianos/osext v0.0.0-20170510131534-ae77be60afb1 // indirect
+	github.com/karrick/godirwalk v1.7.3 // indirect
 	github.com/kisielk/errcheck v1.1.0 // indirect
 	github.com/kr/fs v0.1.0 // indirect
-	github.com/mattn/go-runewidth v0.0.2 // indirect
+	github.com/mattn/go-isatty v0.0.4 // indirect
+	github.com/mdempsky/gocode v0.0.0-20180727200127-00e7f5ac290a // indirect
 	github.com/ncw/go-acd v0.0.0-20171120105400-887eb06ab6a2
 	github.com/ncw/swift v1.0.40
 	github.com/nsf/termbox-go v0.0.0-20180613055208-5c94acc5e6eb
 	github.com/okzk/sdnotify v0.0.0-20180710141335-d9becc38acbd
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pengsrc/go-shared v0.2.0 // indirect
+	github.com/peterh/liner v1.1.0 // indirect
 	github.com/pkg/errors v0.8.0
 	github.com/pkg/sftp v1.8.0
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/ramya-rao-a/go-outline v0.0.0-20170803230019-9e9d089bb61a // indirect
 	github.com/rfjakob/eme v0.0.0-20170305125520-01668ae55fe0
+	github.com/rogpeppe/godef v1.0.0 // indirect
 	github.com/russross/blackfriday v1.5.1 // indirect
 	github.com/sevlyar/go-daemon v0.1.4
+	github.com/sirupsen/logrus v1.0.6 // indirect
 	github.com/skratchdot/open-golang v0.0.0-20160302144031-75fb7ed4208c
 	github.com/smartystreets/assertions v0.0.0-20180820201707-7c9eb446e3cf // indirect
 	github.com/smartystreets/goconvey v0.0.0-20180222194500-ef6db91d284a // indirect
 	github.com/spf13/cobra v0.0.3
 	github.com/spf13/pflag v1.0.1
+	github.com/sqs/goreturns v0.0.0-20180302073349-83e02874ec12 // indirect
 	github.com/stretchr/testify v1.2.2
 	github.com/t3rm1n4l/go-mega v0.0.0-20180817194457-854bf31d998b
+	github.com/uudashr/gopkgs v1.3.2 // indirect
 	github.com/xanzy/ssh-agent v0.2.0
 	github.com/yunify/qingstor-sdk-go v2.2.14+incompatible
+	golang.org/x/arch v0.0.0-20180516175055-5de9028c2478 // indirect
 	golang.org/x/crypto v0.0.0-20180617042118-027cca12c2d6
 	golang.org/x/lint v0.0.0-20180702182130-06c8688daad7 // indirect
 	golang.org/x/net v0.0.0-20180611182652-db08ff08e862
@@ -58,8 +71,8 @@ require (
 	golang.org/x/sys v0.0.0-20180616030259-6c888cc515d3
 	golang.org/x/text v0.3.0
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
-	golang.org/x/tools v0.0.0-20180904205237-0aa4b8830f48 // indirect
-	google.golang.org/api v0.0.0-20180614000435-2eea9ba0a3d9
+	golang.org/x/tools v0.0.0-20180911133044-677d2ff680c1 // indirect
+	google.golang.org/api v0.0.0-20180916000451-19ff8768a5c0
 	google.golang.org/appengine v1.1.0 // indirect
 	gopkg.in/ini.v1 v1.38.2 // indirect
 	gopkg.in/yaml.v2 v2.2.1 // indirect
